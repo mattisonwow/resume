@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Bonjour</title>
-</head>
-<body>
-    <!--    use javascript to creat img  -->
-    <img  id = "background_img" class="background_img"src="./img/1.jpg" alt="">
-    <div class="backgound_docoration"></div>
-    <!-- whole up use javascript-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Bonjour</title>
+    </head>
+    <body>
+        <!--    use javascript to creat img  -->
+        <img  id = "background_img" class="background_img"src="./img/1.jpg" alt="">
+        <div class="backgound_docoration"></div>
+        <!-- whole up use javascript-->
 
-    <nav id= "navBar"class="navBar">
-        <ul class="navBar_list">
-            <li class="navBar_list_key"><a href="#main_content">Home</a></li>
-            <li class="navBar_list_key"><a href="#introduce">About</a></li>
-            <li class="navBar_list_key"><a href="#skill">Skill</a></li>
-            <li class="navBar_list_key">
-                <a href="#portfolio">Portfolio</a>
-                <ul id = "subNavBar"class="sub_navBar_list_key">
-                    <li><a href="">React.js</a></li>
-                    <li><a href="">Vue.js</a></li>
-                    <li><a href="">Native.js</a></li>
-                </ul>
-            </li>
-            <li class="navBar_list_key"><a href="">Blog</a></li>
-            <li class="navBar_list_key"><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main data-x id="main_content" class="main_content sectionpage">
-        <div class="inner_content">
-        <h1><span>I'am</span> Mattison</h1>
-        <h2>- Web Developer -</h2>
-        <p>Lorem ipsumdolor sitamet, consect adipiscing elit Lorem ipsumdolor sitamet,<br> consect adipiscing elit</p>
-        </div>
-    </main>
-    <hr>
-    <section data-x id="introduce" class="introduce sectionpage">
-        <div class="introduce_card">
-            <img class="introduce_card_photo"src="./img/5.png" alt="">
-            <div class="introduce_card_content">
-                <h4>Introduce Myself</h4>
-                <span>Lorem ipsumdolor sitamet, consect adipiscing elit Lorem ipsumdolor sitamet, consect adipiscing elit. Lorem ipsumdolor sitamet, consect adipiscing elit. Lorem ipsumdolor sitamet, consect adipiscing elit. Lorem ipsumdolor sitamet, consect adipiscing elit</span>
-                <p class="button download_cv">Download CV</p>
-                <p class="button download_ctc">Contact Me</p>
+        <nav id= "navBar"class="navBar">
+            <ul class="navBar_list">
+                <li class="navBar_list_key"><a href="#main_content">Home</a></li>
+                <li class="navBar_list_key"><a href="#introduce">About</a></li>
+                <li class="navBar_list_key"><a href="#skill">Skill</a></li>
+                <li class="navBar_list_key">
+                    <a href="#portfolio">Portfolio</a>
+                    <ul id = "subNavBar"class="sub_navBar_list_key">
+                        <li><a href="">React.js</a></li>
+                        <li><a href=" ">Vue.js</a></li>
+                        <li><a href=" ">Native.js</a></li>
+                    </ul>
+                </li>
+                <li class="navBar_list_key"><a href="">Blog</a></li>
+                <li class="navBar_list_key"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main data-x id="main_content" class="main_content sectionpage">
+            <div class="inner_content">
+                <h1><span>I'am</span> Mattison</h1>
+                <h2>- Web Developer -</h2>
+                <p>Lorem ipsumdolor sitamet, consect adipiscing elit Lorem ipsumdolor sitamet,<br> consect adipiscing elit</p>
             </div>
-        </div>
+        </main>
+        <hr>
+        <section data-x id="introduce" class="introduce sectionpage">
+            <div class="introduce_card">
+                <img class="introduce_card_photo"src="./img/5.png" alt="">
+                <div class="introduce_card_content">
+                    <h4>Introduce Myself</h4>
+                    <span>Lorem ipsumdolor sitamet, consect adipiscing elit Lorem ipsumdolor sitamet, consect adipiscing elit. Lorem ipsumdolor sitamet, consect adipiscing elit. Lorem ipsumdolor sitamet, consect adipiscing elit. Lorem ipsumdolor sitamet, consect adipiscing elit</span>
+                    <p class="button download_cv">Download CV</p>
+                    <p class="button download_ctc">Contact Me</p>
+                </div>
+            </div>
 
 
-    </section>
-    <hr>
-    <section data-x id="skill" class="skill sectionpage">
+        </section>
+        <hr>
+        <section data-x id="skill" class="skill sectionpage">
             <div class="skill_card">
                 <h4 class="skill_headline">Skills</h4>
                 <ul class="skill_card_list">
@@ -66,131 +66,165 @@
                     <li class="skill_card_bar">Vue.js</li>
                     <li class="skill_card_bar">React.js</li>
                 </ul>
-        </div>
-        <img src="./img/10.png" alt="" class="person">
+            </div>
+            <img src="./img/10.png" alt="" class="person">
 
-    </section>
-    <hr>
-    <section data-x id="portfolio" class="portfolio sectionpage">
-        <h4>Portfolio</h4>
-        <div class="portfolio_img">
-            <img id="portfolio_photo" src="./img/25.jpg" alt="">
-            <div id="leftKey" class="leftKey"></div>
-            <div id="rightKey" class="rightKey"></div>
-        </div>
-    </section>
-    <hr>
-    <section data-x id="contact" class="contact sectionpage">
-        <h4>Contact</h4>
-        <form class="contact_form" action="">
-            <input  class="form_text" placeholder="Name" type="text">
-            <input class="form_text"  placeholder="E-Maile" type="text">
-            <textarea class="form_text_area" placeholder="Message" name="" id="" cols="50" rows="10"></textarea>
-            <input class="button contact_form_botton" type="submit" value="Submit">
-        </form>
-    </section>
-    <footer></footer>
-    <script>
-        //
-        let liTags = document.querySelectorAll('nav.navBar>ul>li')   //
-        let subTags = document.querySelectorAll('ul#subNavBar>li')
-        addClassList.call(undefined,subTags,'active')
-        addClassList.call(undefined,liTags,'active')
-        imgflow.call(undefined,leftKey,rightKey)
+        </section>
+        <hr>
+        <section data-x id="portfolio" class="portfolio sectionpage">
+            <h4>Portfolio</h4>
+            <div class="portfolio_img">
+                <img id="portfolio_photo" src="./img/25.jpg" alt="">
+                <div id="leftKey" class="leftKey"></div>
+                <div id="rightKey" class="rightKey"></div>
+            </div>
+        </section>
+        <hr>
+        <section data-x id="contact" class="contact sectionpage">
+            <h4>Contact</h4>
+            <form class="contact_form" action="">
+                <input  class="form_text" placeholder="Name" type="text">
+                <input class="form_text"  placeholder="E-Maile" type="text">
+                <textarea class="form_text_area" placeholder="Message" name="" id="" cols="50" rows="10"></textarea>
+                <input class="button contact_form_botton" type="submit" value="Submit">
+            </form>
+        </section>
+        <footer></footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script> 
+        <script>
+            //
+            let liTags = document.querySelectorAll('nav.navBar>ul>li')   //
+            let subTags = document.querySelectorAll('ul#subNavBar>li')
+            addClassList.call(undefined,subTags,'active')
+            addClassList.call(undefined,liTags,'active')
+            imgflow.call(undefined,leftKey,rightKey)
 
-        //监听事件添加Class
-        setsize.call()
-        window.onresize = function(){
-            setsize()
-        }
+            //监听事件添加Class
+            setsize.call()
+            window.onresize = function(){
+                setsize()
+            }
 
 
 
-        let specialTages = document.querySelectorAll('[data-x]')
+            let specialTages = document.querySelectorAll('[data-x]')
             for (let i=0;i<specialTages.length;i++){
                 specialTages[i].classList.add('offset')
             }
-        setTimeout(function(){
-            yyy.call()
-        },300)
+            setTimeout(function(){
+                yyy.call()
+            },300)
 
-        window.onscroll = function(){
-            window.scrollY>0 ? navBar.classList.add('sticky') : navBar.classList.remove('sticky')
-            yyy()
-        }
-
-        function yyy(){
-            let specialTages = document.querySelectorAll('[data-x]')
-            let minIndex = 0
-            for (let i=1;i<specialTages.length;i++){
-                if (Math.abs(specialTages[i].offsetTop - window.scrollY )< Math.abs(specialTages[minIndex].offsetTop - window.scrollY)){
-                    minIndex = i 
-                } 
+            window.onscroll = function(){
+                window.scrollY>0 ? navBar.classList.add('sticky') : navBar.classList.remove('sticky')
+                yyy()
             }
-            //minIndex 
-            specialTages[minIndex].classList.remove('offset')
-            let id =specialTages[minIndex].id
-            let a = document.querySelector('a[href="#'+id+'"]')
-            let li = a.parentNode
-            let brothersAndMe = li.parentNode.children
-            for(let i=0;i<brothersAndMe.length;i++){
-                brothersAndMe[i].classList.remove('heighlight')
-            }
-            li.classList.add('heighlight')
-            brothersAndMe[minIndex].classList.remove('active')
 
-        }
-
-        let aTages = document.querySelectorAll('nav>ul>li>a')
-        for (let i=0; i<aTages.length;i++){
-            aTages[i].onclick = function(events){
-                events.preventDefault()
-                let a = events.currentTarget
-                let href = a.getAttribute('href')
-                let element = document.querySelector(href)
-                let top = element.offsetTop
-                window.scrollTo(0,top)
-            }
-        }
-        function setsize(){
-            var pageheight = document.documentElement.clientHeight
-            var pagewidth = document.documentElement.clientWidth
-            background_img.style.cssText="width:"+pagewidth+"px;"+"height:"+pageheight+"px;"
-        }
-
-        function addClassList(name,className){
-            for(let i=0 ;i<name.length ; i++){
-                name[i].onmouseenter = function(events){
-                    events.currentTarget.classList.add(className)
+            function yyy(){
+                let specialTages = document.querySelectorAll('[data-x]')
+                let minIndex = 0
+                for (let i=1;i<specialTages.length;i++){
+                    if (Math.abs(specialTages[i].offsetTop - window.scrollY )< Math.abs(specialTages[minIndex].offsetTop - window.scrollY)){
+                        minIndex = i 
+                    } 
                 }
-                name[i].onmouseleave = function(events){
-                    events.currentTarget.classList.remove(className)
+                //minIndex 
+                specialTages[minIndex].classList.remove('offset')
+                let id =specialTages[minIndex].id
+                let a = document.querySelector('a[href="#'+id+'"]')
+                let li = a.parentNode
+                let brothersAndMe = li.parentNode.children
+                for(let i=0;i<brothersAndMe.length;i++){
+                    brothersAndMe[i].classList.remove('heighlight')
+                }
+                li.classList.add('heighlight')
+                brothersAndMe[minIndex].classList.remove('active')
+
+            }
+
+            let aTages = document.querySelectorAll('nav>ul>li>a')
+            for (let i=0; i<aTages.length;i++){
+                aTages[i].onclick = function(events){
+                    events.preventDefault()
+                    let a = events.currentTarget
+                    let href = a.getAttribute('href')
+                    let element = document.querySelector(href)
+                    let top = element.offsetTop
+                    window.scrollTo(0,top)
                 }
             }
-        }
+            function setsize(){
+                var pageheight = document.documentElement.clientHeight
+                var pagewidth = document.documentElement.clientWidth
+                background_img.style.cssText="width:"+pagewidth+"px;"+"height:"+pageheight+"px;"
+            }
 
-
-        //this function have bug
-        function imgflow(id_left,id_right){
-            var i = 25
-            id_left.onmousedown = function(){
-                portfolio_photo.src="./img/"+(--i)+".jpg"
-                if(i=24){
-                    id_left.style.cssText = "display:none;"
+            function addClassList(name,className){
+                for(let i=0 ;i<name.length ; i++){
+                    name[i].onmouseenter = function(events){
+                        events.currentTarget.classList.add(className)
+                    }
+                    name[i].onmouseleave = function(events){
+                        events.currentTarget.classList.remove(className)
+                    }
                 }
             }
-            id_right.onmousedown = function(){
 
-                portfolio_photo.src="./img/"+(++i)+".jpg"
-                if(i=26){
-                    id_right.style.cssText = "display:none;"
+
+            //this function have bug
+            function imgflow(id_left,id_right){
+                var i = 25
+                id_left.onmousedown = function(){
+                    portfolio_photo.src="./img/"+(--i)+".jpg"
+                    if(i=24){
+                        id_left.style.cssText = "display:none;"
+                    }
                 }
-            }   
-        }
-        //this function have bug
+                id_right.onmousedown = function(){
+
+                    portfolio_photo.src="./img/"+(++i)+".jpg"
+                    if(i=26){
+                        id_right.style.cssText = "display:none;"
+                    }
+                }   
+            }
+            //this function have bug
 
 
+            let aTags = document.querySelectorAll('#navBar>ul>li>a')
+          console.log(aTags) 
+            function animate(time) {
+                requestAnimationFrame(animate);
+                TWEEN.update(time);
 
-    </script>
-</body>
+            }
+            requestAnimationFrame(animate);
+            for(let i=0; i<aTags.length; i++){
+                aTags[i].onclick = function(x){
+                    x.preventDefault()
+                    let a = x.currentTarget
+                    let href = a.getAttribute('href') //'#siteAbout'
+                    let element = document.querySelector(href)
+                    let top = element.offsetTop
+                    let currentTop = window.scrollY
+                    let targetTop = top 
+                    let s = targetTop - currentTop // 路程
+                    var coords = { y: currentTop }; // 起始位置
+                    var t = Math.abs((s/100)*300) // 时间
+                    if(t>500){ t = 500  }
+                    var tween = new TWEEN.Tween(coords) // 起始位置
+                        .to({ y: targetTop }, t) // 结束位置 和 时间
+                        .easing(TWEEN.Easing.Cubic.InOut) // 缓动类型
+                        .onUpdate(function() {
+                            // coords.y 已经变了
+                            window.scrollTo(0,coords.y) // 如何更新界面
+
+                        })
+                        .start(); // 开始缓动
+
+                }
+
+            }
+        </script>
+    </body>
 </html>
